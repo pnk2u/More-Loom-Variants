@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+        "bottom": "lolmlmv:block/birch_loom_bottom",
+        "front": "lolmlmv:block/birch_loom_front",
+        "side": "lolmlmv:block/birch_loom_side",
+        "top": "lolmlmv:block/birch_loom_top"
+    }
+}

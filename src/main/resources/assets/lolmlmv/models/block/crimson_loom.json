@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+        "bottom": "lolmlmv:block/crimson_loom_bottom",
+        "front": "lolmlmv:block/crimson_loom_front",
+        "side": "lolmlmv:block/crimson_loom_side",
+        "top": "lolmlmv:block/crimson_loom_top"
+    }
+}

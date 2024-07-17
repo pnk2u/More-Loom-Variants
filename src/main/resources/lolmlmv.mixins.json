@@ -1,0 +1,13 @@
+{
+  "required": true ,
+  "package": "de.pnku.mlmv.mixin" ,
+  "compatibilityLevel": "JAVA_21" ,
+  "mixins": [
+    "LoomMenuMixin" ,
+    "PoiTypesAccessor"
+  ] ,
+  "injectors": {
+    "defaultRequire": 1
+  } ,
+  "minVersion": "0.8"
+}

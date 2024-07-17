@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "lolmlmv:block/mangrove_loom",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "lolmlmv:block/mangrove_loom"
+        },
+        "facing=south": {
+            "model": "lolmlmv:block/mangrove_loom",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "lolmlmv:block/mangrove_loom",
+            "y": 270
+        }
+    }
+}
+}

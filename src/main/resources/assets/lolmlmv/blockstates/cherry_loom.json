@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "lolmlmv:block/cherry_loom",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "lolmlmv:block/cherry_loom"
+        },
+        "facing=south": {
+            "model": "lolmlmv:block/cherry_loom",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "lolmlmv:block/cherry_loom",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "lieonstudio:looms"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:loom"
+  }
+}
