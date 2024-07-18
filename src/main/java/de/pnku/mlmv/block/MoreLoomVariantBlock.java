@@ -9,12 +9,12 @@ public class MoreLoomVariantBlock extends LoomBlock {
     public final String loomWoodType;
 
     public MoreLoomVariantBlock(MapColor colour, String loomWoodType) {
-        super(Properties.ofFullCopy(Blocks.LOOM).mapColor(colour));
+        super(Properties.copy(Blocks.LOOM).mapColor(colour));
         this.loomWoodType = loomWoodType;
     }
 
     public MoreLoomVariantBlock(MapColor colour, SoundType sound, String loomWoodType) {
-        super(Properties.ofFullCopy(Blocks.LOOM).mapColor(colour).sound(sound));
+        super(Properties.copy(Blocks.LOOM).mapColor(colour).sound(sound));
         this.loomWoodType = loomWoodType;
     }
 }
