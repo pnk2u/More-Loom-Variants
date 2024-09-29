@@ -36,9 +36,9 @@ public class MlmvItemInit {
         registerItem(WARPED_LOOM_I, CRIMSON_LOOM_I);
     }
 
-    private static void registerItem(BlockItem smithingTable, Item smithingTableAfter) {
-        Registry.register(BuiltInRegistries.ITEM, MoreLoomVariants.asId(((MoreLoomVariantBlock) smithingTable.getBlock()).loomWoodType + "_loom"), smithingTable);
+    private static void registerItem(BlockItem loom, Item loomAfter) {
+        Registry.register(BuiltInRegistries.ITEM, MoreLoomVariants.asId(((MoreLoomVariantBlock) loom.getBlock()).loomWoodType + "_loom"), loom);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(smithingTableAfter, smithingTable));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(loomAfter, loom));
     }
 }
