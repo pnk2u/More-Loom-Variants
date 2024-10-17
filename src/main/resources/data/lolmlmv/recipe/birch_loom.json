@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:birch_planks"
-    },
-    "@": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:birch_planks",
+    "@": "minecraft:string"
   },
   "pattern": [
     "@@",

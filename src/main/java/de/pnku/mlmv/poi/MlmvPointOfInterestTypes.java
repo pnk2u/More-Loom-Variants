@@ -21,9 +21,9 @@ public class MlmvPointOfInterestTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> shepherdEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.SHEPHERD).get();
+                .get(PoiTypes.SHEPHERD).get();
 
-        PoiType shepherdPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.SHEPHERD);
+        PoiType shepherdPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.SHEPHERD);
 
         List<BlockState> shepherdBlockStates = new ArrayList<BlockState>(shepherdPoiType.matchingStates);
 

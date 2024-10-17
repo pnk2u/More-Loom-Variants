@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:jungle_planks"
-    },
-    "@": {
-      "item": "minecraft:string"
-    }
+    "#": "minecraft:jungle_planks",
+    "@": "minecraft:string"
   },
   "pattern": [
     "@@",
