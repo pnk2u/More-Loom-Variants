@@ -17,6 +17,7 @@ import static de.pnku.mlmv.init.MlmvBlockInit.*;
 public class MlmvItemInit {
     public static final BlockItem BIRCH_LOOM_I = itemFromBlock(BIRCH_LOOM);
     public static final BlockItem DARK_OAK_LOOM_I = itemFromBlock(DARK_OAK_LOOM);
+    public static final BlockItem PALE_OAK_LOOM_I = itemFromBlock(PALE_OAK_LOOM);
     public static final BlockItem SPRUCE_LOOM_I = itemFromBlock(SPRUCE_LOOM);
     public static final BlockItem JUNGLE_LOOM_I = itemFromBlock(JUNGLE_LOOM);
     public static final BlockItem ACACIA_LOOM_I = itemFromBlock(ACACIA_LOOM);
@@ -44,7 +45,8 @@ public class MlmvItemInit {
     public static void registerItems() {
         registerItem(BIRCH_LOOM_I, Items.LOOM);
         registerItem(DARK_OAK_LOOM_I, BIRCH_LOOM_I);
-        registerItem(SPRUCE_LOOM_I, DARK_OAK_LOOM_I);
+        registerItem(PALE_OAK_LOOM_I, DARK_OAK_LOOM_I);
+        registerItem(SPRUCE_LOOM_I, PALE_OAK_LOOM_I);
         registerItem(JUNGLE_LOOM_I, SPRUCE_LOOM_I);
         registerItem(ACACIA_LOOM_I, JUNGLE_LOOM_I);
         registerItem(MANGROVE_LOOM_I, ACACIA_LOOM_I);

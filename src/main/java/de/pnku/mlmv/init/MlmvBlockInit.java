@@ -14,6 +14,7 @@ import java.util.List;
 public class MlmvBlockInit {
     public static final MoreLoomVariantBlock BIRCH_LOOM = new MoreLoomVariantBlock(MapColor.SAND, "birch");
     public static final MoreLoomVariantBlock DARK_OAK_LOOM = new MoreLoomVariantBlock(MapColor.COLOR_BROWN, "dark_oak");
+    public static final MoreLoomVariantBlock PALE_OAK_LOOM = new MoreLoomVariantBlock(MapColor.QUARTZ, "pale_oak");
     public static final MoreLoomVariantBlock SPRUCE_LOOM = new MoreLoomVariantBlock(MapColor.PODZOL, "spruce");
     public static final MoreLoomVariantBlock JUNGLE_LOOM = new MoreLoomVariantBlock(MapColor.DIRT, "jungle");
     public static final MoreLoomVariantBlock ACACIA_LOOM = new MoreLoomVariantBlock(MapColor.COLOR_ORANGE, "acacia");
@@ -29,6 +30,7 @@ public class MlmvBlockInit {
     public static void registerBlocks() {
         registerBlock(BIRCH_LOOM);
         registerBlock(DARK_OAK_LOOM);
+        registerBlock(PALE_OAK_LOOM);
         registerBlock(SPRUCE_LOOM);
         registerBlock(JUNGLE_LOOM);
         registerBlock(ACACIA_LOOM);
