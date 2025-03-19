@@ -19,8 +19,8 @@ public class MlmvItemInit {
     public static final BlockItem MANGROVE_LOOM_I = new BlockItem(MlmvBlockInit.MANGROVE_LOOM, new Item.Properties());
     public static final BlockItem CHERRY_LOOM_I = new BlockItem(MlmvBlockInit.CHERRY_LOOM, new Item.Properties());
     public static final BlockItem BAMBOO_LOOM_I = new BlockItem(MlmvBlockInit.BAMBOO_LOOM, new Item.Properties());
-    public static final BlockItem CRIMSON_LOOM_I = new BlockItem(MlmvBlockInit.CRIMSON_LOOM, new Item.Properties());
-    public static final BlockItem WARPED_LOOM_I = new BlockItem(MlmvBlockInit.WARPED_LOOM, new Item.Properties());
+    public static final BlockItem CRIMSON_LOOM_I = new BlockItem(MlmvBlockInit.CRIMSON_LOOM, new Item.Properties().fireResistant());
+    public static final BlockItem WARPED_LOOM_I = new BlockItem(MlmvBlockInit.WARPED_LOOM, new Item.Properties().fireResistant());
 
 
     public static void registerItems() {

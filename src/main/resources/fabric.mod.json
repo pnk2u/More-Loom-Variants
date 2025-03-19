@@ -8,7 +8,8 @@
 		"${mod_authors}"
 	],
 	"contact": {
-		"homepage": "https://pnku.de/",
+		"homepage": "https://www.pnku.de/",
+		"email": "contact@pnku.de",
 		"sources": "https://github.com/pnk2u/More-Loom-Variants",
 		"issues": "https://github.com/pnk2u/More-Loom-Variants/issues"
 	},
@@ -26,7 +27,7 @@
 	"accessWidener": "lolmlmv.accesswidener" ,
 	"depends": {
 		"fabricloader": ">=${loader_version}",
-		"minecraft": ">=1.21",
+		"minecraft": ["1.21", "1.21.1"],
 		"java": ">=21",
 		"fabric-api": ">=0.100.0"
 	},
