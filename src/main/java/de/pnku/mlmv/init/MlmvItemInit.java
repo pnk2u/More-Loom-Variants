@@ -2,7 +2,7 @@ package de.pnku.mlmv.init;
 
 import de.pnku.mlmv.MoreLoomVariants;
 import de.pnku.mlmv.block.MoreLoomVariantBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -59,6 +59,6 @@ public class MlmvItemInit {
     private static void registerItem(BlockItem loom, Item loomAfter) {
         Registry.register(BuiltInRegistries.ITEM, MoreLoomVariants.asId(((MoreLoomVariantBlock) loom.getBlock()).loomWoodType + "_loom"), loom);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(loomAfter, loom));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(loomAfter, loom));
     }
 }
