@@ -4,7 +4,7 @@ import de.pnku.mlmv.init.MlmvBlockInit;
 import de.pnku.mlmv.init.MlmvItemInit;
 import de.pnku.mlmv.poi.MlmvPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public class MoreLoomVariants implements ModInitializer {
     public static final String MODID = "lolmlmv";
@@ -16,7 +16,7 @@ public class MoreLoomVariants implements ModInitializer {
         MlmvPointOfInterestTypes.init();
     }
 
-    public static ResourceLocation asId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    public static Identifier asId(String path) {
+        return Identifier.fromNamespaceAndPath(MODID, path);
     }
 }
